@@ -20,9 +20,6 @@
 		69601BF91BD08E590038545D /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 69601BF71BD08E590038545D /* test.html */; };
 		69601BFA1BD08E590038545D /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 69601BF71BD08E590038545D /* test.html */; };
 		69601BFC1BD094650038545D /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69601BFB1BD094650038545D /* AFNetworking.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AB34C0291C23FA6E008E0AA7 /* CustomFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB34C0281C23FA6E008E0AA7 /* CustomFunctions.m */; };
-		AB34C02D1C23FF26008E0AA7 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = AB34C02C1C23FF26008E0AA7 /* readme */; };
-		AB34C0311C24043D008E0AA7 /* CustomisNSNull.m in Sources */ = {isa = PBXBuildFile; fileRef = AB34C0301C24043D008E0AA7 /* CustomisNSNull.m */; };
 		AB5814B21C23A118000507E1 /* LoadWebViewImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5814B11C23A118000507E1 /* LoadWebViewImage.m */; };
 /* End PBXBuildFile section */
 
@@ -64,11 +61,6 @@
 		69601BFB1BD094650038545D /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
 		7030A6DC5274CA7EDA7096B7 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CC87430D723B8F915ADFB5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		AB34C0271C23FA6E008E0AA7 /* CustomFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFunctions.h; sourceTree = "<group>"; };
-		AB34C0281C23FA6E008E0AA7 /* CustomFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFunctions.m; sourceTree = "<group>"; };
-		AB34C02C1C23FF26008E0AA7 /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
-		AB34C02F1C24043D008E0AA7 /* CustomisNSNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomisNSNull.h; sourceTree = "<group>"; };
-		AB34C0301C24043D008E0AA7 /* CustomisNSNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomisNSNull.m; sourceTree = "<group>"; };
 		AB5814B01C23A118000507E1 /* LoadWebViewImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadWebViewImage.h; sourceTree = "<group>"; };
 		AB5814B11C23A118000507E1 /* LoadWebViewImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadWebViewImage.m; sourceTree = "<group>"; };
 		ADF5DD147872051F6E3FDE71 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,7 +127,6 @@
 		69601BC31BD08A500038545D /* ObjCLoadWebviewImage */ = {
 			isa = PBXGroup;
 			children = (
-				AB34C02C1C23FF26008E0AA7 /* readme */,
 				69601BF71BD08E590038545D /* test.html */,
 				69601BC71BD08A500038545D /* AppDelegate.h */,
 				69601BC81BD08A500038545D /* AppDelegate.m */,
@@ -143,10 +134,6 @@
 				69601BCB1BD08A500038545D /* ViewController.m */,
 				AB5814B01C23A118000507E1 /* LoadWebViewImage.h */,
 				AB5814B11C23A118000507E1 /* LoadWebViewImage.m */,
-				AB34C0271C23FA6E008E0AA7 /* CustomFunctions.h */,
-				AB34C0281C23FA6E008E0AA7 /* CustomFunctions.m */,
-				AB34C02F1C24043D008E0AA7 /* CustomisNSNull.h */,
-				AB34C0301C24043D008E0AA7 /* CustomisNSNull.m */,
 				69601BCD1BD08A500038545D /* Main.storyboard */,
 				69601BD01BD08A500038545D /* Assets.xcassets */,
 				69601BD21BD08A500038545D /* LaunchScreen.storyboard */,
@@ -297,7 +284,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB34C02D1C23FF26008E0AA7 /* readme in Resources */,
 				69601BF81BD08E590038545D /* test.html in Resources */,
 				69601BD41BD08A500038545D /* LaunchScreen.storyboard in Resources */,
 				69601BD11BD08A500038545D /* Assets.xcassets in Resources */,
@@ -378,10 +364,8 @@
 			files = (
 				69601BCC1BD08A500038545D /* ViewController.m in Sources */,
 				AB5814B21C23A118000507E1 /* LoadWebViewImage.m in Sources */,
-				AB34C0311C24043D008E0AA7 /* CustomisNSNull.m in Sources */,
 				69601BC91BD08A500038545D /* AppDelegate.m in Sources */,
 				69601BC61BD08A500038545D /* main.m in Sources */,
-				AB34C0291C23FA6E008E0AA7 /* CustomFunctions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
